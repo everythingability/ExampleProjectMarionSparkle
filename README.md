@@ -4,7 +4,7 @@ This project is a Twine Chapbook project that I will use to teach Twine, here:
 
 ![](https://www-users.york.ac.uk/~tas509/SplashScreen_Cover.png)
 
-[http://digitalcreativitytools.everythingability.com/activities/view/create-an-interactive-narrative-game-1](http://digitalcreativitytools.everythingability.com/activities/view/create-an-interactive-narrative-game-1)
+
 
 
 This project contains three things.
@@ -16,6 +16,15 @@ It has examples of:
 * The beginnings of a story about Marion Sparkle, a plucky cabbage from the fine town of Hostornmer. This is so that you can explore adding your own passages to it, to extend the story, without needing an actual story to tell. This is just so you get an idea of some of the mechanics of it.
 
 Of course once you've spent a little time breaking this project, then you'll have concocted your own story and have learned enough to start from scratch.
+
+A demo version of the Examples and Marion will be available here:
+
+Demo: [here](https://www-users.york.ac.uk/~tas509/ExampleProjectMarionSparkle.html)
+
+
+
+[http://digitalcreativitytools.everythingability.com/activities/view/create-an-interactive-narrative-game-1](http://digitalcreativitytools.everythingability.com/activities/view/create-an-interactive-narrative-game-1)
+
 
 Tom Smith [everythingability.com](https://everythingability.com/)
 
