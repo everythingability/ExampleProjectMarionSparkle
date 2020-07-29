@@ -932,7 +932,7 @@ You hear Wearmouth telling a customer that, as a child he had won Crackerjack tw
 
 He always lies. All of the time. Most of the time it doesn&#39;t matter. Last week it was all about his youth as an Artic explorer, and how one time he ate an entire polar bear.
 
-Right. You take a deep breath, and enter [[the shop-&gt;The Butchers]] to begin another day.</tw-passagedata><tw-passagedata pid="22" name="The Supermarket" tags="" position="2569,347" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/supermarket._1024.jpg&quot;}
+Right. You take a deep breath, and enter [[the shop-&gt;The Butchers]] to begin another day.</tw-passagedata><tw-passagedata pid="22" name="The Supermarket" tags="" position="2524,347" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/supermarket._1024.jpg&quot;}
 
 As you enter, uou reach into your pocket and the list Theresa gave you.
 
@@ -971,9 +971,31 @@ The towers of big city disappear over your shoulder as you start heading towards
 
 The east road was a bit bumpy. Was Daisygate really this way?
 
-[[You look at the map-&gt;Through The Cornfield]] </tw-passagedata><tw-passagedata pid="25" name="Mars" tags="" position="2973,967.3333333333334" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/mars._1024.jpg&quot;}
+[[You look at the map-&gt;Through The Cornfield]] </tw-passagedata><tw-passagedata pid="25" name="Mars" tags="" position="3184.666666666667,1805.666666666667" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/mars._1024.jpg&quot;}
 
-[[and warmer still-&gt;Fire]] </tw-passagedata><tw-passagedata pid="26" name="Corridor One" tags="" position="2770.6666666666665,1864.6666666666667" size="100,100">wool: typeof wool === &quot;undefined&quot; ? false : wool 
+# Wrong Choice! 
+
+[CSS]
+blockquote{
+ color: gray;
+ font-style: italic;
+ font-size: 30px;
+}
+
+[continue]
+
+Somehow, you have ended up here. Where are you? How did that happen?
+
+Oh well, you are remember the words of Winston Cabbage,
+
+&lt;blockquote&gt;
+&#39;When you are going through hell,
+[[keep going-&gt;Fire]]&#39;. 
+&lt;/blockquote&gt;
+
+Seems reasonable enough.
+
+</tw-passagedata><tw-passagedata pid="26" name="Corridor One" tags="" position="2770.6666666666665,1864.6666666666667" size="100,100">wool: typeof wool === &quot;undefined&quot; ? false : wool 
 --
 {embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/corridor._1024.jpg&quot;}
 
@@ -1005,30 +1027,38 @@ Walking down the lane it&#39;s hard to see where it actually is. The light snow 
 
 There are no other footsteps to help.
 
-Truding forwards, it seems to be getting [[closer-&gt;Mansion Closer]] really slowly, as if the whole building is on wheels and is sneakily trundling away from us.
-</tw-passagedata><tw-passagedata pid="28" name="Mansion Closer" tags="" position="2764.3333333333335,1406" size="100,100">sausages: typeof sausages === &quot;undefined&quot; ? false : sausages 
+Truding forwards, it seems to be getting [[closer-&gt;The Dog]] really slowly, as if the whole building is on wheels and is sneakily trundling away from us.
+</tw-passagedata><tw-passagedata pid="28" name="The Dog" tags="" position="2764.3333333333335,1406" size="100,100">sausages: typeof sausages === &quot;undefined&quot; ? false : sausages 
 --
 
 
 {embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/download._1024.jpg&quot;}
 
+You can hear a dog baying.
+
+[after 2 second]
+
 As you get closer a large lumbering guard dog lopes towards you, ears flapping.
 
+[after 4 seconds]
+
 It slows as it get nears and snarls. It&#39;s slobbering and doesn&#39;t look very friendly.
+
+[after 6 seconds]
 
 Is this the beast? 
 
 
-[if sausages]
 
+[if sausages]
+[after 2 seconds]
 [[You give it the pack of sausages-&gt;Mansion Close]] and it seems happy enough to let you pass. That wasn&#39;t too bad.
 
 [else]
+[after 8 seconds]
 If only you had some food to distract it, like some sausages or something... damn! There&#39;s no way it&#39;s going to let you get past.
 
 You will have to head [[home-&gt;Marion Sparkle]].
-
-
 
 [continue]
 
@@ -1058,7 +1088,8 @@ As you walk towards the building you can see two doors.
 &gt;[[A posh door-&gt;Corridor One]] 
 &gt;[[A more humble door-&gt;The Cellar]]</tw-passagedata><tw-passagedata pid="31" name="Second Floor Map" tags="" position="2498.6666666666665,1689" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/floor_2._1024.jpg&quot;}
 
-Maybe there&#39;s more useful information in [[here-&gt;https://www.yourworldoftext.com/~everythingability/secondfloormap]]?</tw-passagedata><tw-passagedata pid="32" name="The Posh Room" tags="" position="2753.3333333333335,2018" size="100,100">map: typeof map === &quot;undefined&quot; ? false : map 
+Maybe there&#39;s more useful information in [[here-&gt;https://www.yourworldoftext.com/~everythingability/secondfloormap]]?</tw-passagedata><tw-passagedata pid="32" name="The Posh Room" tags="" position="2770.0000000000005,2039.6666666666667" size="100,100">map: typeof map === &quot;undefined&quot; ? false : map 
+yourName: typeof yourName === &quot;undefined&quot; ? &quot;Marion&quot; : yourName 
 --
 
 {embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/room._1024.jpg&quot;}
@@ -1067,7 +1098,7 @@ In this room, all the exits are named after moons.
 
 On the table, a scribbled note says
 
-**WHAT YOU WANT IS IN SATURN&#39;S BIGGEST**
+~~WHAT YOU WANT {yourName} IS IN SATURN&#39;S BIGGEST~~
 
 [if map]
 
@@ -1084,12 +1115,12 @@ If only you had a moon map! You might want to [[go home-&gt;Marion Sparkle]]
 
 Mmm! Or maybe you could have a guess?
 
-&gt;[[Europa-&gt;The Turquoise Corridor]]
-&gt;[[Ganymede-&gt;The Turquoise Corridor]]
-&gt;[[Io-&gt;The Turquoise Corridor]]
-&gt;[[Titan-&gt;The Turquoise Corridor]]
+&gt;[[Europa-&gt;Mars]]
+&gt;[[Ganymede-&gt;Mars]]
+&gt;[[Io-&gt;Mars]]
+&gt;[[Titan-&gt;Mars]]
 &gt;[[Triton-&gt;The Turquoise Corridor]]
-&gt;[[Phoebe-&gt;The Turquoise Corridor]]
+&gt;[[Phoebe-&gt;Mars]]
 
 
 
@@ -1123,7 +1154,7 @@ You need something that makes a dry scatchy record sound, otherwise you might di
 [continue]
 
 
-</tw-passagedata><tw-passagedata pid="34" name="The Book" tags="" position="2262,2405.3333333333335" size="100,100">
+</tw-passagedata><tw-passagedata pid="34" name="The Book" tags="" position="2282,2373.666666666667" size="100,100">
 puffin: typeof puffin === &quot;undefined&quot; ? false : puffin 
 --
 
@@ -1212,9 +1243,14 @@ You wander your way past the mountain...you&#39;re pretty sure it was this way, 
 [[further in-&gt;Minecraft Chickens]] to Thorben&#39;s weird world.
 
 
-</tw-passagedata><tw-passagedata pid="38" name="Mansion At Night" tags="" position="3061.3333333333335,1223.3333333333333" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/night._1024.jpg&quot;}
+</tw-passagedata><tw-passagedata pid="38" name="Mansion At Night" tags="" position="3041.3333333333335,1295" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/night._1024.jpg&quot;}
 
-[[Map Of Daisygate]] </tw-passagedata><tw-passagedata pid="39" name="Inside An Atom" tags="" position="1876,1013.3333333333333" size="100,100"># WELCOME TO NOWHERE
+# The Mansion
+
+That certainly looks like the mansion, but it&#39;s night. Where did all that time go?
+
+
+As you trudge towards it, the [[sun starts rising-&gt;The Dog]].</tw-passagedata><tw-passagedata pid="39" name="Inside An Atom" tags="" position="1876,1013.3333333333333" size="100,100"># WELCOME TO NOWHERE
 
 Turns our nowhere is a quantum kind of place.
 
@@ -1249,16 +1285,27 @@ When the time is up. You get back on the bus looking back at the lighthouse. And
 
 Some of the cockroaches are almost sobbing at the missed pizza.
 
-It&#39;s a long a quiet ride [[back home-&gt;Marion Sparkle]]. </tw-passagedata><tw-passagedata pid="41" name="Map Of Daisygate" tags="" position="2646,1123.3333333333335" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/Daisygate._1024.jpg&quot;}
-
+It&#39;s a long a quiet ride [[back home-&gt;Marion Sparkle]]. </tw-passagedata><tw-passagedata pid="41" name="Map Of Daisygate" tags="" position="2646,1123.3333333333335" size="100,100">yourName: &quot;Marion&quot;
+--
+{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/Daisygate._1024.jpg&quot;}
 
 You arrive in Daisygate. It is noticibly cooler and a little snow has started to fall. It looks quite pretty.
 
-It&#39;s not not clear from the map where The Mansion actually is. There is a sign to [[Cowbit Village]], but that doesn&#39;t look right. The map definitely says **Mansion of Fire (and Spit), Daisygate, East Argriogn**
+It&#39;s not not clear from your map where The Mansion actually is. There is a sign to [[Cowbit Village]], but that doesn&#39;t look right. The map definitely says **Mansion of Fire (and Spit), Daisygate, East Argriogn**
 
-You ask a what looks like a farmer directions, and he tells you that the big house is second on the left and then up the long lane. But to be honest, he doesn&#39;t look right.
+You try to catch the attention of a passerby with a friendly &quot;Hello!&quot;
 
-Where the farmer is pointing you does look like the biggest property, it has to that, right? 
+What looks like a farmer, stops and asks...
+
+&quot;Who are you then?&quot;
+
+You don&#39;t know whether to give him your real name or not, so you answer...
+
+{text input for: &#39;yourName&#39;}
+
+... and ask for directions. Hhe tells you that the _big house_ is second on the left and then up the long lane. But to be honest, he doesn&#39;t look right.
+
+Where the farmer is pointing you does look like the biggest property in Daisygate, it has to that, right? 
 
 You try [[second on the left-&gt;Mansion At A Distance]] and begin the going down the lane, as the farmer shouts after you.
 
@@ -1279,11 +1326,17 @@ Wearmouth&#39;s Map is right though. Up a lane on your left there is indeed a sm
 
 
 Until, could that be it? [[Is that Daisygate is up ahead?-&gt;Map Of Daisygate]] 
-</tw-passagedata><tw-passagedata pid="44" name="Fire" tags="" position="2773.666666666667,953" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/cullan-smith-BdTtvBRhOng-unsplash._1024.jpg&quot;}
+</tw-passagedata><tw-passagedata pid="44" name="Fire" tags="" position="3152.0000000000005,1449.6666666666667" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/cullan-smith-BdTtvBRhOng-unsplash._1024.jpg&quot;}
 
-Until through tears and smoke, you see a village on the horizon.
+# Er...
 
-Could that be [[Daisygate-&gt;Map Of Daisygate]] up ahead?</tw-passagedata><tw-passagedata pid="45" name="The Cellar" tags="" position="3000,1699" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/cellar._1024.jpg&quot;}
+This is worse! Stupid Winston! 
+
+~~ THIS IS HELL! ~~
+
+You stumble forward.
+
+Through tears and smoke, there&#39;s [[something up ahead-&gt;Mansion At Night]].</tw-passagedata><tw-passagedata pid="45" name="The Cellar" tags="" position="3000,1699" size="100,100">{embed image: &quot;https://www-users.york.ac.uk/~tas509/scenes/cellar._1024.jpg&quot;}
 
 Oo. This is spooky. This isn&#39;t right. 
 
